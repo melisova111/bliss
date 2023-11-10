@@ -487,85 +487,103 @@ section {
 
 /*blog*/
 
-.blog_top{
+.blog_top {
 	align-items: center;
 	margin-bottom: 64px;
-  }
-  .blog_left{
+}
+
+.blog_left {
 	width: 50%;
-  }
-  .blog_right{
+}
+
+.blog_right {
 	width: 50%;
 	padding-left: 24px;
-  }
-  .blog_right .blog_card{
+}
+
+.blog_right .blog_card {
 	width: calc(50% - 12px);
-  }
-  footer{
+}
+
+footer {
 	padding-top: 120px;
 	background: #474747;
-	}
-	.footer_copy{
+}
+
+.footer_copy {
 	padding: 30px 0 85px;
 	color: #ADB29E;
 	font-size: 16px;
 	line-height: 24px;
 	text-align: center;
-	}
-	.footer_big{
+}
+
+.footer_big {
 	padding-bottom: 100px;
 	border-bottom: 1px solid #414536;
 	color: #DBDFD0;
-	}
-	.footer_left{
+}
+
+.footer_left {
 	width: 30%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 30px;
-	}
-	.footer_nav{
-	width: 17%;display: flex;
+}
+
+.footer_nav {
+	width: 17%;
+	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 40px;
-	}
-	.footer_tit{color: #fff;
-	}
-	.footer_right{
+}
+
+.footer_tit {
+	color: #fff;
+}
+
+.footer_right {
 	width: 35%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 40px;
-	}
-	.footer_logo img{
+}
+
+.footer_logo img {
 	width: 56px;
 	height: 55px;
 	flex-shrink: 0;
-	}
-	.footer_logo{
+}
+
+.footer_logo {
 	width: 212px;
-	height: 55px; 
+	height: 55px;
 	display: flex;
 	align-items: center;
-	}
-	.footer_img{
+}
+
+.footer_img {
 	width: calc((100% - 15px) / 2);
 	margin-bottom: 15px;
 	border-radius: 12px;
 	overflow: hidden;
 	position: relative;
 	margin-right: 1px;
-	}
-	.footer_img img{
+}
+
+.footer_img img {
 	transition: 0.5s;
-	}
-	.footer_img:hover img{
+}
+
+.footer_img:hover img {
 	transform: scale(1.2);
-	}
-	.footer_img::before{
-	content:  '';
+}
+
+.footer_img::before {
+	content: '';
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -575,82 +593,96 @@ section {
 	opacity: 0;
 	z-index: 1;
 	transition: 0.5s;
-	}
-	.footer_img:hover::before{
+}
+
+.footer_img:hover::before {
 	opacity: 0.5;
-	}
-	.footer_icons{
+}
+
+.footer_icons {
 	display: flex;
 	justify-content: space-between;
 	width: 176px;
-	}
-	.footer_list{
+}
+
+.footer_list {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 20px;
-	}
-	.footer_logo p{
+}
+
+.footer_logo p {
 	color: #FFF;
 	font-family: Playfair Display;
 	font-size: 34px;
 	font-style: italic;
-	line-height: 30px; /* 89.787% */
+	line-height: 30px;
+	/* 89.787% */
 	letter-spacing: -0.4px;
-	}
-  /* feel */
-.feel{
-	background-image: url(/img/feel.jpg) ;
+}
+
+/* feel */
+.feel {
+	background-image: url(/img/feel.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	}
-	.feel_play img{
+}
+
+.feel_play img {
 	margin-left: 574px;
 	width: 106px;
 	height: 106px;
-	}
-	.feel_tit{
+}
+
+.feel_tit {
 	width: 596px;
 	color: #fff;
 	margin-left: 376px;
 	font-family: Playfair Display;
 	font-size: 55px;
 	font-weight: 500;
-	line-height: 60.5px; 
-	}
-	.f_ic{
+	line-height: 60.5px;
+}
+
+.f_ic {
 	width: 90px;
 	height: 90px;
 	display: block;
 	margin-right: 24px;
-	}
-	.feel__1 .f_ic{
-	background-image: url(/img/icons/feel2.png) ;
+}
+
+.feel__1 .f_ic {
+	background-image: url(/img/icons/feel2.png);
 	background-position: center;
 	background-repeat: no-repeat;
-	}
-	.feel__2 .f_ic{
+}
+
+.feel__2 .f_ic {
 	background-image: url(/img/icons/feel3.png);
 	background-position: center;
 	background-repeat: no-repeat;
-	}
-	.feel__3 .f_ic{
+}
+
+.feel__3 .f_ic {
 	background-image: url(/img/icons/feel4.png);
 	background-position: center;
 	background-repeat: no-repeat;
-	}
-	.feel_card{
+}
+
+.feel_card {
 	width: calc((100% - 48px) / 3);
 	padding: 45px 35px 35px 35px;
 	margin-top: 64px;
-	}
+}
 
-	.menu{
-		color: var(--neutral-07, #2C2F24);
-text-align: center;
-font-family: Playfair Display;
-font-size: 100px;
-font-style: normal;
-font-weight: 400;
-line-height: 96px; /* 96% */
-	}
+.menu {
+	color: var(--neutral-07, #2C2F24);
+	text-align: center;
+	font-family: Playfair Display;
+	font-size: 100px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 96px;
+	/* 96% */
+}
