@@ -141,6 +141,7 @@ section {
 	line-height: 24px;
 	padding: 12px 24px;
 }
+
 .btn:hover {
 	background: #2C2F24;
 	color: #fff;
@@ -246,6 +247,7 @@ section {
 	display: block;
 	background: #f3f3f0;
 }
+
 /*food*/
 .food_in {
 	align-items: center;
@@ -307,6 +309,7 @@ section {
 	/* 125% */
 	letter-spacing: -0.72px;
 }
+
 /*offer*/
 .offer .sec_sub-tit {
 	min-width: 675px;
@@ -681,4 +684,99 @@ footer {
 	font-weight: 400;
 	line-height: 96px;
 	/* 96% */
+}
+
+
+
+
+.card {
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+	width: 300px;
+	margin: 20px;
+}
+
+h2 {
+	color: #333;
+}
+
+.price {
+	font-size: 24px;
+	color: #ff6600;
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+.buy-btn {
+	background-color: #ff6600;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.menu_cards-flex {
+	width: 306px;
+height: 417.469px;
+margin-bottom: 24px;
+}
+
+.menu_card {
+	width: calc((100% - 24px) / 4);
+	border-radius: 12px;
+border: 2px solid var(--neutral-03, #DBDFD0);
+background: var(--neutral-01, #FFF);
+margin-bottom: 24px;
+transition: 0.5s;
+}
+
+.menu_card:hover {
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu_pounds {
+	color: #AD343E;
+	text-align: center;
+	font-family: DM Sans;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	/* 125% */
+	letter-spacing: -0.72px;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+
+.menu_tit {
+	color: var(--neutral-07, #2C2F24);
+	text-align: center;
+	font-family: DM Sans;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 26px;
+	/* 130% */
+	margin-bottom: 15px;
+
+}
+
+.menu_txt {
+	color: var(--neutral-06, #414536);
+	text-align: center;
+	font-family: DM Sans;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	/* 150% */
 }
