@@ -233,7 +233,6 @@ section {
 	background: #FFF;
 	width: calc((100% - 72px)/4);
 	padding: 40px 34px 32px;
-
 	display: flex;
 	flex-direction: column;
 	align-items: center;
