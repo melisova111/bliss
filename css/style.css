@@ -597,8 +597,6 @@ section {
 	.menu{
 		color: var(--neutral-07, #2C2F24);
 text-align: center;
-
-/* Headline/H1 */
 font-family: Playfair Display;
 font-size: 100px;
 font-style: normal;
