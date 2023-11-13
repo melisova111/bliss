@@ -148,6 +148,7 @@ section {
 	font-weight: 700;
 	line-height: 24px;
 	padding: 12px 24px;
+	color: #AD343E;
 }
 
 .btn:hover {
@@ -682,6 +683,7 @@ footer {
 	padding: 45px 35px 35px 35px;
 	margin-top: 64px;
 }
+/*menu*/
 
 .menu {
 	color: var(--neutral-07, #2C2F24);
@@ -693,7 +695,19 @@ footer {
 	line-height: 96px;
 	/* 96% */
 }
-
+.menu_btns {
+	margin-top: 50px;
+  }
+  
+  .btn_all {
+	background: #ad343e;
+	color: #fff;
+	border-color: #ad343e;
+  }
+  
+  .btn_all:hover {
+	border-color: #2c2f24;
+  }
 
 /*quest*/
 .guest_tit{
@@ -1028,4 +1042,8 @@ li {
 
 .secret ul li {
 	list-style-type: decimal;
+}
+
+.grey{
+	
 }
