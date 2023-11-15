@@ -240,7 +240,8 @@ section {
 	background-color: #2C2F24;
 }
 
-/*browse*/
+/* main */
+
 .browse_card {
 	border-radius: 12px;
 	border: 2px solid var(--neutral-03, #DBDFD0);
