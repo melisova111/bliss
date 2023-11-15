@@ -683,6 +683,7 @@ footer {
 	padding: 45px 35px 35px 35px;
 	margin-top: 64px;
 }
+
 /*menu*/
 
 .menu {
@@ -695,79 +696,92 @@ footer {
 	line-height: 96px;
 	/* 96% */
 }
+
 .menu_btns {
 	margin-top: 50px;
-  }
-  
-  .btn_all {
+}
+
+.btn_all {
 	background: #ad343e;
 	color: #fff;
 	border-color: #ad343e;
-  }
-  
-  .btn_all:hover {
+}
+
+.btn_all:hover {
 	border-color: #2c2f24;
-  }
+}
 
 /*quest*/
-.guest_tit{
+.guest_tit {
 	color: #2C2F24;
 	font-family: Playfair Display;
 	font-size: 55px;
 	font-weight: 500;
-	line-height: 60.5px; /* 110% */
+	line-height: 60.5px;
+	/* 110% */
 	width: 547px;
-	}
-	.txt{
+}
+
+.txt {
 	color: #414536;
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 24px; /* 150% */
+	line-height: 24px;
+	/* 150% */
 	width: 556px;
 	margin-top: 20px;
 	margin-bottom: 50px;
-	}
-	.guest_info img{
+}
+
+.guest_info img {
 	width: 672px;
 	height: 884px;
 	border-radius: 12px;
-	}
-	.guest_txt{
+}
+
+.guest_txt {
 	width: calc(100% - (108px + 50%));
 	margin-right: 108px;
-	}
-	.img{
+}
+
+.img {
 	width: 50%;
-	}
-	.number{
+}
+
+.number {
 	display: flex;
 	align-items: flex-start;
 	flex-wrap: wrap;
-	}
-	.number_item:hover{
+}
+
+.number_item:hover {
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-	}
-	.number_item{
+}
+
+.number_item {
 	margin-right: 24px;
 	margin-bottom: 24px;
 	width: 35%;
 	border-radius: 8px;
-	border: 1px solid  #DBDFD0;
+	border: 1px solid #DBDFD0;
 	padding: 40px 34px 32px;
 	text-align: center;
 	font-family: "Playfair Display";
 	font-size: 55px;
-	line-height: 60.5px; /* 110% */
-	}
-	.number_item span{
+	line-height: 60.5px;
+	/* 110% */
+}
+
+.number_item span {
 	font-family: "DM Sans";
 	display: block;
 	color: #414536;
 	text-align: center;
 	font-size: 18px;
 	font-weight: 500;
-	line-height: 28px; /* 155.556% */
-	}
+	line-height: 28px;
+	/* 155.556% */
+}
 
 
 /*card*/
@@ -845,6 +859,20 @@ li {
 	margin-bottom: 50px;
 	margin-top: 20px;
 
+	display: inline-block
+}
+
+.sec_sub-txt {
+	color: var(--neutral-07, #2C2F24);
+	text-align: center;
+
+	/* Headline/H1 */
+	font-family: Playfair Display;
+	font-size: 100px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 96px;
+	/* 96% */
 }
 
 .menu_pounds {
@@ -924,6 +952,7 @@ li {
 .pages {
 	background: var(--neutral-02, #F9F9F7);
 }
+
 .pages_titi {
 	color: var(--neutral-07, #2C2F24);
 	text-align: center;
@@ -1044,6 +1073,4 @@ li {
 	list-style-type: decimal;
 }
 
-.grey{
-	
-}
+.grey {}
