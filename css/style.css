@@ -635,6 +635,7 @@ footer {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 .feel_play img {
 	margin-left: 574px;
 	width: 106px;
@@ -1136,6 +1137,7 @@ li {
 	justify-content: center;
 	align-items: center;
 }
-.app_card__big{
+
+.app_card__big {
 	width: 260px;
 }
