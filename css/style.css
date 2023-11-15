@@ -377,8 +377,6 @@ section {
 	max-width: 414px;
 	color: var(--neutral-07, #2C2F24);
 	padding-top: 50px;
-
-	/* Headline/H2 */
 	font-family: Playfair Display;
 	font-size: 55px;
 	font-style: normal;
