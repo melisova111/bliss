@@ -331,7 +331,7 @@ section {
 .offer .sec_sub-tit {
 	min-width: 675px;
 	margin-bottom: 57px;
-}
+} 
 
 .offer_card {
 	width: calc((100% - 48px)/4);
