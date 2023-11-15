@@ -150,9 +150,11 @@ section {
 	padding: 12px 24px;
 	color: #AD343E;
 }
-.btn{
+
+.btn {
 	text-align: center;
 }
+
 .btn:hover {
 	background: #2C2F24;
 	color: #fff;
@@ -1064,53 +1066,55 @@ li {
 .secret ul li {
 	list-style-type: decimal;
 }
+
 /*form*/
 
-.form_in{
+.form_in {
 	border-radius: 16px;
-border: #FFF;
-background: #FFF;
-mix-blend-mode: hard-light;
-box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
-min-width: 812px;
-margin: 0 auto;
-padding: 43px 50px 50px;
+	border: #FFF;
+	background: #FFF;
+	mix-blend-mode: hard-light;
+	box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+	min-width: 812px;
+	margin: 0 auto;
+	padding: 43px 50px 50px;
 }
 
-.form_txt{
+.form_txt {
 	color: #2C2F24;
-font-weight: 700;
-line-height: 24px; 
-margin-bottom: 8px;
-display: block;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 8px;
+	display: block;
 }
 
-.form_input-in{
+.form_input-in {
 	border-radius: 72px;
-border: 1px solid  #DBDFD0;
-margin-bottom: 24px;
-padding: 0 24px; 
+	border: 1px solid #DBDFD0;
+	margin-bottom: 24px;
+	padding: 0 24px;
 }
 
-.input{
+.input {
 	line-height: 56px;
 	font-size: 16px;
 }
 
-.form_input{
+.form_input {
 	width: calc(50% - 12px);
 }
 
-.form_input__big{
-width: 100%;
+.form_input__big {
+	width: 100%;
 }
 
-.form-wrap{
+.form-wrap {
 	padding-bottom: 0;
 	margin-bottom: -240px;
 	z-index: 10;
 	position: relative;
 }
-.map{
+
+.map {
 	padding-top: 0;
 }
