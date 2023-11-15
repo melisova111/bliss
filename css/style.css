@@ -1112,3 +1112,30 @@ li {
 .map {
 	padding-top: 0;
 }
+
+/*menu_apps*/
+
+.app_left {
+	width: 300px;
+}
+
+.app_right {
+	width: calc(100% - 380px);
+	margin: 0 12px 40px;
+}
+
+.app_card {
+	width: 220px;
+	height: 90px;
+	margin: 0 12px 40px;
+	background: #FFF;
+	border-radius: 12px;
+	border: 1px solid var #F9F9F7;
+	box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.app_card__big{
+	width: 260px;
+}
