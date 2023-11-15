@@ -403,7 +403,6 @@ section {
 	display: flex;
 	flex-direction: column;
 	align-items: start;
-
 	gap: 20px;
 	color: var(--neutral-07, #2C2F24);
 
