@@ -949,7 +949,6 @@ li {
 .pages {
 	background: var(--neutral-02, #F9F9F7);
 }
-
 .pages_txt {
 	color: var(--neutral-06, #414536);
 	text-align: center;
