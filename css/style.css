@@ -181,6 +181,7 @@ section {
 	padding: 20px 0;
 	align-items: center;
 }
+
 .menu a {
 	padding: 4px 16px;
 	margin-right: 8px;
@@ -241,7 +242,7 @@ section {
 }
 
 /* main */
- 
+
 .browse_card {
 	border-radius: 12px;
 	border: 2px solid var(--neutral-03, #DBDFD0);
@@ -253,6 +254,7 @@ section {
 	align-items: center;
 	gap: 15px;
 }
+
 .browse_ic {
 	width: 100px;
 	height: 100px;
@@ -266,11 +268,13 @@ section {
 .food_in {
 	align-items: center;
 }
+
 .food_left {
 	width: calc(50% - 45px);
 	padding: 0 50px 50px 0;
 	position: relative;
 }
+
 .food_info {
 	position: absolute;
 	bottom: 0;
