@@ -390,8 +390,6 @@ section {
 .ff_txt {
 	max-width: 414px;
 	color: var(--neutral-06, #414536);
-
-	/* Body/16px/Regular */
 	font-family: DM Sans;
 	font-size: 16px;
 	font-style: normal;
