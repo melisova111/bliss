@@ -1013,8 +1013,6 @@ li {
 	gap: 10px;
 	border-radius: 16px;
 	background: var(--neutral-01, #FFF);
-
-
 }
 
 .contact_box:hover {
