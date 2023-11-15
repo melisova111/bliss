@@ -266,7 +266,6 @@ section {
 .food_in {
 	align-items: center;
 }
-
 .food_left {
 	width: calc(50% - 45px);
 	padding: 0 50px 50px 0;
