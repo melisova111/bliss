@@ -150,7 +150,9 @@ section {
 	padding: 12px 24px;
 	color: #AD343E;
 }
-
+.btn{
+	text-align: center;
+}
 .btn:hover {
 	background: #2C2F24;
 	color: #fff;
@@ -953,16 +955,6 @@ li {
 	background: var(--neutral-02, #F9F9F7);
 }
 
-.pages_titi {
-	color: var(--neutral-07, #2C2F24);
-	text-align: center;
-	font-family: Playfair Display;
-	font-size: 100px;
-	font-weight: 400;
-	line-height: 96px;
-	margin-bottom: 24px;
-}
-
 .pages_txt {
 	color: var(--neutral-06, #414536);
 	text-align: center;
@@ -1073,4 +1065,42 @@ li {
 	list-style-type: decimal;
 }
 
-.grey {}
+.form_in{
+	border-radius: 16px;
+border: #FFF;
+background: #FFF;
+mix-blend-mode: hard-light;
+box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+min-width: 812px;
+margin: 0 auto;
+padding: 43px 50px 50px;
+}
+.form_txt{
+	color: #2C2F24;
+font-weight: 700;
+line-height: 24px; 
+margin-bottom: 8px;
+display: block;
+}
+.form_input-in{
+	border-radius: 72px;
+border: 1px solid  #DBDFD0;
+margin-bottom: 24px;
+padding: 0 24px; 
+}
+.input{
+	line-height: 56px;
+	font-size: 16px;
+}
+.form_input{
+	width: calc(50% - 12px);
+}
+.form_input__big{
+width: 100%;
+}
+.form-wrap{
+	padding-bottom: 0;
+	margin-bottom: -240px;
+	z-index: 10;
+	position: relative;
+}
