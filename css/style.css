@@ -629,59 +629,66 @@ footer {
 }
 
 /* feel */
-
-.feel {
-	background-image: url(/img/favicon/feel.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.feel_play img {
-	margin-left: 574px;
-	width: 106px;
-	height: 106px;
-}
-
-.feel_tit {
-	width: 596px;
-	color: #fff;
-	margin-left: 376px;
+.feel_top {
+	background: url(/img/favicon/feel.jpg) center no-repeat;
+	background-size: cover;
+	display: block;
+	padding: 215px 0;
+  }
+  
+  .feel_top .sec_sub-tit {
+	color: var(--neutral-01, #FFF);
 	font-family: Playfair Display;
 	font-size: 55px;
+	font-style: normal;
 	font-weight: 500;
 	line-height: 60.5px;
-}
-
-.f_ic {
-	width: 90px;
-	height: 90px;
+	width: 596px;
+	text-align: center;
+	margin: 0 auto;
+  }
+  
+  .feel_play {
+	width: 106px;
+	height: 106px;
 	display: block;
+	border-radius: 50%;
+	background: #fff;
+	margin: 0 auto 34px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .feel_play::before {
+	content: '';
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	margin-left: 5px;
+	border-width: 12.5px 0 12.5px 20px;
+	border-color: transparent transparent transparent #AD343E;
+  }
+  
+  .feel_card {
+	margin-top: 80px;
+	width: 366px;
+	align-items: flex-start;
+  }
+  
+  .feel_tit {
+	padding-bottom: 16px;
+  }
+  
+  .feel_icon {
+	position: relative;
 	margin-right: 24px;
-}
-
-.feel__1 .f_ic {
-	background-image: url(/img/icons/feel2.png);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.feel__2 .f_ic {
-	background-image: url(/img/icons/feel3.png);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.feel__3 .f_ic {
-	background-image: url(/img/icons/feel4.png);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.feel_card {
-	width: calc((100% - 48px) / 3);
-	padding: 45px 35px 35px 35px;
-	margin-top: 64px;
-}
+  }
+  
+  .feel_info {
+	width: 294px;
+  }
+  
 
 /*menu*/
 .menu {
@@ -781,6 +788,7 @@ footer {
 	line-height: 28px;
 	/* 155.556% */
 }
+
 /*card*/
 
 .card {
@@ -949,6 +957,7 @@ li {
 .pages {
 	background: var(--neutral-02, #F9F9F7);
 }
+
 .pages_txt {
 	color: var(--neutral-06, #414536);
 	text-align: center;
