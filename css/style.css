@@ -191,6 +191,7 @@ section {
 	line-height: 24px;
 	border-radius: 34px;
 	transition: 0.3s;
+    font-family: DM Sans;
 }
 
 .menu li:last-child a {
@@ -261,6 +262,10 @@ section {
 	border-radius: 50%;
 	display: block;
 	background: #f3f3f0;
+}
+
+.browse_tit {
+	color: #AD343E;
 }
 
 /*food*/
@@ -864,7 +869,8 @@ li {
 	margin-bottom: 50px;
 	margin-top: 20px;
 
-	display: inline-block
+	margin: 0 auto;
+	
 }
 
 .sec_sub-txt {
@@ -877,6 +883,7 @@ li {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 96px;
+	margin-bottom: 50px;
 	/* 96% */
 }
 
@@ -1145,4 +1152,19 @@ li {
 
 .app_card__big {
 	width: 260px;
+}
+
+
+/*contact*/
+
+.contact {
+	border-radius: 16px;
+	border: #FFF;
+	background: #FFF;
+	mix-blend-mode: hard-light;
+	box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+	min-width: 812px;
+	margin: 0 auto;
+	padding: 43px 50px 50px;
+
 }
