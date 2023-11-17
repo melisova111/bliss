@@ -634,9 +634,9 @@ footer {
 	background-size: cover;
 	display: block;
 	padding: 215px 0;
-  }
-  
-  .feel_top .sec_sub-tit {
+}
+
+.feel_top .sec_sub-tit {
 	color: var(--neutral-01, #FFF);
 	font-family: Playfair Display;
 	font-size: 55px;
@@ -646,9 +646,9 @@ footer {
 	width: 596px;
 	text-align: center;
 	margin: 0 auto;
-  }
-  
-  .feel_play {
+}
+
+.feel_play {
 	width: 106px;
 	height: 106px;
 	display: block;
@@ -658,9 +658,9 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  }
-  
-  .feel_play::before {
+}
+
+.feel_play::before {
 	content: '';
 	width: 0px;
 	height: 0px;
@@ -668,27 +668,27 @@ footer {
 	margin-left: 5px;
 	border-width: 12.5px 0 12.5px 20px;
 	border-color: transparent transparent transparent #AD343E;
-  }
-  
-  .feel_card {
+}
+
+.feel_card {
 	margin-top: 80px;
 	width: 366px;
 	align-items: flex-start;
-  }
-  
-  .feel_tit {
+}
+
+.feel_tit {
 	padding-bottom: 16px;
-  }
-  
-  .feel_icon {
+}
+
+.feel_icon {
 	position: relative;
 	margin-right: 24px;
-  }
-  
-  .feel_info {
+}
+
+.feel_info {
 	width: 294px;
-  }
-  
+}
+
 
 /*menu*/
 .menu {
